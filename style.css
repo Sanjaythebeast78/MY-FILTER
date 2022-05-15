@@ -1,0 +1,18 @@
+canvas {
+animation-name: exmaple;
+animation-duration: 6s;
+animation-iteration-count: infinite;
+
+
+}
+@keyframes exmaple{
+    0% {box-shadow: 1px 1px 40px  red}
+    20% {box-shadow: 1px 1px 40px  orange}
+    40% {box-shadow: 1px 1px 40px yellow}
+    60% {box-shadow: 1px 1px 40px  rgb(57, 217, 57)}
+    80% {box-shadow: 1px 1px 40px  blue}
+    100% {box-shadow: 1px 1px 40px  indigo}
+    }
+body {
+    background-image: linear-gradient(to right, red,orange,yellow,green,blue,indigo,violet);
+}
